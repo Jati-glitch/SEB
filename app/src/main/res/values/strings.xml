@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Safe Exam Browser</string>
+    <string name="exam_browser_tagline">Browser Ujian Terproteksi &amp; Anti-Kecurangan</string>
+    
+    <!-- Navigation & Tabs -->
+    <string name="tab_exam">Mulai Ujian</string>
+    <string name="tab_history">Riwayat &amp; Log</string>
+    <string name="tab_settings">Pengaturan</string>
+    <string name="tab_guide">Panduan</string>
+
+    <!-- Pre-exam Setup -->
+    <string name="exam_url_label">URL Server Ujian / CBT</string>
+    <string name="exam_url_hint">https://cbt.sekolah.sch.id atau forms.google.com</string>
+    <string name="student_name_label">Nama Siswa / Peserta</string>
+    <string name="student_id_label">Nomor Peserta / NISN</string>
+    <string name="exam_token_label">Token Ujian (Opsional)</string>
+    <string name="start_exam_button">Masuk Sesi Ujian Aman</string>
+    <string name="preset_servers_title">Server Ujian Cepat / Preset</string>
+    <string name="custom_url_title">Input URL Kustom</string>
+
+    <!-- Active Exam UI -->
+    <string name="active_exam_title">Sesi Ujian Berlangsung</string>
+    <string name="strikes_count_label">Pelanggaran: %1$d/%2$d</string>
+    <string name="finish_exam_button">Selesai Ujian</string>
+    <string name="exit_exam_button">Keluar Ujian (PIN Pengawas)</string>
+    <string name="locked_notice_title">Ujian Terkunci!</string>
+    <string name="locked_notice_desc">Batas pelanggaran telah tercapai (%1$d/%2$d). Hubungi pengawas ujian untuk membuka sesi.</string>
+    <string name="strike_warning_title">Peringatan Pelanggaran!</string>
+    <string name="strike_warning_desc">Aplikasi mendeteksi perpindahan fokus, minimize layar, atau upaya keluar. Setiap pelanggaran dicatat dalam log pengawas!</string>
+    <string name="enter_pin_label">Masukkan PIN Pengawas</string>
+    <string name="unlock_button">Buka Kunci</string>
+    <string name="cancel_button">Batal</string>
+    <string name="pin_incorrect">PIN Pengawas salah!</string>
+
+    <!-- Settings & Security -->
+    <string name="security_settings_title">Konfigurasi Keamanan Ujian</string>
+    <string name="pref_flag_secure">Blokir Screenshot &amp; Screen Record</string>
+    <string name="pref_flag_secure_desc">Mencegah tangkapan layar dan perekaman saat ujian aktif</string>
+    <string name="pref_lock_task">Mode Kiosk (Screen Pinning)</string>
+    <string name="pref_lock_task_desc">Kunci layar agar siswa tidak dapat menekan Home/Recent</string>
+    <string name="pref_anti_cheat">Deteksi Pindah Aplikasi (Strikes)</string>
+    <string name="pref_anti_cheat_desc">Hitung pelanggaran otomatis jika siswa beralih jendela</string>
+    <string name="pref_clear_clipboard">Bersihkan Clipboard / Salin-Tempel</string>
+    <string name="pref_clear_clipboard_desc">Hapus riwayat clipboard saat ujian dimulai</string>
+    <string name="pref_proctor_pin">PIN Pengawas Ujian</string>
+    <string name="pref_user_agent">Custom Safe Browser User-Agent</string>
+
+    <!-- Role & Access Control -->
+    <string name="role_student">Mode Siswa</string>
+    <string name="role_proctor">Mode Panitia / Pengawas</string>
+    <string name="switch_role_title">Beralih Mode Akses</string>
+    <string name="login_as_proctor_title">Otorisasi Panitia Ujian</string>
+    <string name="login_as_proctor_desc">Akses ke Pengaturan Keamanan, Log Pelanggaran, dan Konfigurasi Server dilindungi PIN khusus Panitia / Pengawas.</string>
+    <string name="enter_proctor_pin_hint">Ketik PIN Panitia (Default: 1234)</string>
+    <string name="btn_login_proctor">Masuk sebagai Panitia</string>
+    <string name="btn_switch_student">Kembali ke Mode Siswa</string>
+    <string name="proctor_logged_in">Masuk sebagai Panitia</string>
+    <string name="student_mode_active">Mode Siswa Aktif</string>
+    <string name="settings_locked_by_proctor">Pengaturan &amp; konfigurasi dikunci oleh Panitia Ujian</string>
+
+    <!-- Logs -->
+    <string name="violation_logs_title">Log Pelanggaran &amp; Riwayat</string>
+    <string name="no_violations_yet">Belum ada pelanggaran yang tercatat.</string>
+    <string name="clear_logs_button">Bersihkan Log</string>
+</resources>
